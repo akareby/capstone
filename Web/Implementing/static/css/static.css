@@ -1,0 +1,33 @@
+/*
+ * filename : static.css
+ * history
+ * 20190908     v.0.0.0     초안 작성                            김한동
+ * 20190909     v.1.0.0     결과 화면 이미지를 위한 조정 부분 추가      김한동
+ *
+ * discription
+ * 세부 스타일 조정을 위한 css 부분 분리
+ */
+
+body {
+    background-color:ghostwhite;
+}
+header {
+    border:3px groove;
+}
+footer {
+    text-align:left;
+}
+#paddingleft {
+    padding-left:20px;
+}
+#profileImage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:20px;
+}
+#thumbnailImage {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}

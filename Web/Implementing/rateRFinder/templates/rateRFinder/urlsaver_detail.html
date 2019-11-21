@@ -1,0 +1,60 @@
+{# filename : urlsaver_detail.html #}
+{# history #}
+{# 20190903     v.0.0.0    초안 작성                                    김한동 #}
+{# 20190905     v.1.0.0    인자를 입력받아 이미지 출력 가능하도록 만듬           김한동 #}
+{# 20190908     v.1.1.0    디자인 큰 밑그림 그리기                          김한동 #}
+{# 20190909     v.1.2.0    네비게이션 바 상세 정보 화면에서만 출력되도록 수정      김한동 #}
+{#                         CNN 모델과 통합 진행                                 #}
+{# 20190910     v.1.3.0    모델 결과 반영 부분 작업 중                       김한동 #}
+{# 20190915     v.2.0.0    결과 반영 부분 완성                             김한동 #}
+{# discription #}
+{# url을 입력받아 python 파일 실행 후 결과를 보여주는 화면 #}
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Detail{% endblock %}
+
+{% block content %}
+    <header class="header clearfix">
+        <nav class="navbar navbar-expand-lg navbar-light be-light">
+            <a class="navbar-brand" href="/rateRFinder">Youtube Rate R Finder</a>
+            <ul class="nav">
+                <li class="nav-item"><a href="/rateRFinder" class="active nav-link">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p><br></p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h3>{{ title }}</h3>
+            <a href="{{ url }}"><img id="thumbnailImage" src="{{ imgUrl }}"></a><br>
+            <p>* 길이정보 : {{ duration }}</p>
+            <p>* 평점 : {{ rating }}</p>
+        </div>
+        <div class="col-md-6" style="overflow:auto; height:550px">
+            <!-- TODO :: 결과 해석법 적어주기, 총 결과 적어주기 -->
+            <h3>결과보기</h3>
+            <p>동영상을 20 프레임으로 나누어 캡쳐한 후 총 10개의 부분으로 나누었습니다.</p>
+            <p>각 영역에서 제시하는 요소들은 사전 학습된 결과에 따라 판별된 결과입니다.</p>
+            <p>총 결과가 유해하지 않은 영상은 시청하셔도 좋습니다.</p>
+            <hr>
+            <ul>
+                <li>첫번째 : {{ step0 }} 요소가 있을 수 있습니다.</li>
+                <li>두번째 : {{ step1 }} 요소가 있을 수 있습니다.</li>
+                <li>세번째 : {{ step2 }} 요소가 있을 수 있습니다.</li>
+                <li>네번째 : {{ step3 }} 요소가 있을 수 있습니다.</li>
+                <li>다섯번째 : {{ step4 }} 요소가 있을 수 있습니다.</li>
+                <li>여섯번째 : {{ step5 }} 요소가 있을 수 있습니다.</li>
+                <li>일곱번째 : {{ step6 }} 요소가 있을 수 있습니다.</li>
+                <li>여덟번째 : {{ step7 }} 요소가 있을 수 있습니다.</li>
+                <li>아홉번째 : {{ step8 }} 요소가 있을 수 있습니다.</li>
+                <li>열번째 : {{ step9 }} 요소가 있을 수 있습니다.</li>
+            </ul>
+            <hr>
+            <h4>이 영상은 {{ totalResult }} 영상입니다.</h4>
+        </div>
+    </div>
+
+{% endblock %}

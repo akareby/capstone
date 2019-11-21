@@ -1,0 +1,63 @@
+{# filename : urlsaver_creat.html #}
+{# history #}
+{# 20190903     v.0.0.0    초안 작성                                  김한동 #}
+{# 20190905     v.1.0.0    버튼 입력 시 detail 페이지로 이동하는 기능 구현   김한동 #}
+{# 20190908     v.1.1.0    팀 소개 부분 수정, 새로운 TODO 추가             김한동 #}
+{# 20190909     v.1.1.1    메인 화면에서 네비게이션 바 제거, 신규 TODO 추가   김한동 #}
+{# 20190915     v.2.0.0    검색 부분 디자인 수정                         김한동 #}
+{# 20190917     v.2.1.0    팀 사진 변경                                김한동 #}
+{# 20190917     v.2.2.0    로고 사진 변경                              김한동 #}
+{# discription #}
+{# 사이트의 메인 페이지이자 url을 입력할 수 있는 html 파일 생성 #}
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <p><br></p>
+    <div class="row" id="paddingleft">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12"><h1><p class="text-center"><a href="/rateRFinder"><img src="{% static 'main_red_logo.png' %}" width="960px" height="auto"></a></p></h1></div>
+            </div>
+            <br><br><br>
+            <div class="row">
+                <div class="col">
+                    <form class="form-inline" action="{% url 'detail' %}" method="post">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <input id="url" type="text" name="url" maxlength="100" style="
+                                  width: 960px;
+                                  height: 50px;
+                                  background: ghostwhite;
+                                  border: none;
+                                  font-size: 13pt;
+                                  float: left;
+                                  color: black;
+                                  padding-left: 15px;
+                                  -webkit-border-radius: 5px;
+                                  -moz-border-radius: 5px;
+                                  border-radius: 5px;
+                                  margin-left:auto;
+                                  margin-right:auto;
+                                  " placeholder="url을 입력하세요."/>
+                            <button type="submit" class="btn btn-info btn-sm" style="width:100px; height:50px">확인하기</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br><br><br>
+
+            <div class="row"><h4>*About Us</h4></div>
+            <div class="row">
+                <div class="col">
+                    <img id="profileImage" src="{% static 'about_us.png' %}" width="720px" height="auto" align="center">
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </div>
+
+{% endblock %}

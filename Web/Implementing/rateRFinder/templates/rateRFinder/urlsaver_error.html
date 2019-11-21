@@ -1,0 +1,36 @@
+{# filename : urlsaver_error.html #}
+{# history #}
+{# 20190915     v.0.0.0     저작권 문제를 처리하기 위한 페이지로 기존 urlsave_list.html 코드 수정     김한동 #}
+{# discription #}
+{# 본래 메인 페이지로 사용할 예정이었으나 urlsaver_create.html로 옮김에 따라 삭제 예정인 코드 #}
+{# 저작권 보호 영상 결과를 보여주기 위한 페이지로 변경 #}
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Error{% endblock %}
+
+{% block content %}
+    <header class="header clearfix">
+        <nav class="navbar navbar-expand-lg navbar-light be-light">
+            <a class="navbar-brand" href="/rateRFinder">Youtube Rate R Finder</a>
+            <ul class="nav">
+                <li class="nav-item"><a href="/rateRFinder" class="active nav-link">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p><br></p>
+
+    <br>
+    <p class="text-center">
+        <img src="{% static 'error_logo.png' %}" width="960px" height="auto">
+    </p><br>
+    <div class="row">
+        <div class="col">
+            <h2 align="center">이 영상은 저작권 보호를 받는 영상으로 결과를 확인할 수 없습니다.</h2>
+            <a href="/rateRFinder"><h3 align="center">홈 화면으로 돌아가기</h3></a>
+        </div>
+    </div>
+    <br>
+
+{% endblock %}
