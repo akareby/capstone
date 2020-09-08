@@ -50,9 +50,15 @@
 
 #### 시연
 <br/>
+
+<img src="/test_img/12.PNG" width="50%" height="50%">
+
+- 웹에서 유튜브 url을 입력을 받는다.
+<br/>
 <img src="/test_img/8.PNG" width="50%" height="50%">
 
-- 콘솔창에서 데이터를 판별하는 작업  
+- 콘솔창에서 데이터를 판별하는 작업
+<br/>
 <img src="/test_img/9.PNG" width="50%" height="50%">
 
 - 일반 동영상  
