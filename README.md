@@ -31,8 +31,9 @@
 <img src="/test_img/2.PNG" width="50%" height="50%"> 
 
 - '공포', '음란', '잔인'이라는 주제로한 데이터  
-- 선정성을 가진 데이터 약 1500개, 비선정성을 가진 데이터 약 1500개
+- 선정성을 가진 데이터 약 1500개, 비선정성을 가진 데이터 약 1500개  
 
+<br/>
 #### CNN
 <br/>
 <img src="/test_img/4.PNG" width="50%" height="50%">
@@ -41,8 +42,9 @@
 
 <img src="/test_img/5.PNG" width="50%" height="50%">
 
-- 3 Layers, Batch Size = 300, Epoch = 300
+- 3 Layers, Batch Size = 300, Epoch = 300  
 
+<br/>
 #### Web
 <br/>
 <img src="/test_img/6.PNG" width="50%" height="50%">
