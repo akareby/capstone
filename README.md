@@ -51,8 +51,8 @@
 <br/>
 <img src="/test_img/7.PNG" width="50%" height="50%">
 
-- 웹 구조
-
+- 다이어그램
+<br/>
 #### 시연
 <br/>
 
