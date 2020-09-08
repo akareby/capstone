@@ -24,8 +24,6 @@
 - 유튜브에 특별한 인증이 필요 없이도 볼 수 있는 유해한 동영상들이 많이 있다
 
 
-
-
 #### Data Set
 <br/>
 <img src="/test_img/2.PNG" width="50%" height="50%"> 
@@ -44,8 +42,8 @@
 <img src="/test_img/5.PNG" width="50%" height="50%">
 
 - 3 Layers, Batch Size = 300, Epoch = 300  
-
 <br/>
+
 #### Web
 <br/>
 <img src="/test_img/6.PNG" width="50%" height="50%">
