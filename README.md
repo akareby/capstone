@@ -34,7 +34,6 @@
 - 선정성을 가진 데이터 약 1500개, 비선정성을 가진 데이터 약 1500
 
 #### CNN
-<img src="/test_img/3.PNG" width="50%" height="50%">
 <img src="/test_img/4.PNG" width="50%" height="50%">
 
 - 프로그램 구조  
