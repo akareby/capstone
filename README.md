@@ -38,9 +38,10 @@
 
 - 프로그램 구조  
 
-<p align="center"><img src="/test_img/5.PNG" width="50%" height="50%"></p>
+<img src="/test_img/5.PNG" width="50%" height="50%"></p>
 - 3 Layers, Batch Size = 300, Epoch = 300
 
+#### Web
 <p align="center"><img src="/test_img/6.PNG" width="50%" height="50%"></p>
 <p align="center"><img src="/test_img/7.PNG" width="50%" height="50%"></p>
 <p align="center"><img src="/test_img/8.PNG" width="50%" height="50%"></p>
