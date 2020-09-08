@@ -32,8 +32,8 @@
 
 - '공포', '음란', '잔인'이라는 주제로한 데이터  
 
-
-<p align="center"><img src="/test_img/3.PNG" width="50%" height="50%"></p>
+#### CNN
+<img src="/test_img/3.PNG" width="50%" height="50%"></p>
 <p align="center"><img src="/test_img/4.PNG" width="50%" height="50%"></p>
 <p align="center"><img src="/test_img/5.PNG" width="50%" height="50%"></p>
 <p align="center"><img src="/test_img/6.PNG" width="50%" height="50%"></p>
