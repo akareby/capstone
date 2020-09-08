@@ -40,19 +40,23 @@
 - 프로그램 구조  
 
 <img src="/test_img/5.PNG" width="50%" height="50%">
+
 - 3 Layers, Batch Size = 300, Epoch = 300
 
 #### Web
+<br/>
 <img src="/test_img/6.PNG" width="50%" height="50%">
 <img src="/test_img/7.PNG" width="50%" height="50%">
 
 #### 시연
+<br/>
 <img src="/test_img/8.PNG" width="50%" height="50%">
 
 - 콘솔창에서 데이터를 판별하는 작업  
 <img src="/test_img/9.PNG" width="50%" height="50%">
 
 - 일반 동영상  
+<br/>
 
 <img src="/test_img/10.PNG" width="50%" height="50%">
 <img src="/test_img/11.PNG" width="50%" height="50%">
