@@ -51,7 +51,7 @@
 <br/>
 <img src="/test_img/7.PNG" width="50%" height="50%">
 
-- 다이어그램
+- 웹 
 <br/>
 
 #### 시연
@@ -67,10 +67,10 @@
 <br/>
 <img src="/test_img/9.PNG" width="50%" height="50%">
 
-- 일반 동영상  
+- 일반 동영상으로 판별하는 결과
 <br/>
 
 <img src="/test_img/10.PNG" width="50%" height="50%">
 <img src="/test_img/11.PNG" width="50%" height="50%">
 
-- 선정성이 있는 동영상
+- 선정성이 있는 동영상 판별하는 결과들
