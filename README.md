@@ -39,22 +39,21 @@
 
 - 프로그램 구조  
 
-<img src="/test_img/5.PNG" width="50%" height="50%"></p>
+<img src="/test_img/5.PNG" width="50%" height="50%">
 - 3 Layers, Batch Size = 300, Epoch = 300
 
 #### Web
-<img src="/test_img/6.PNG" width="50%" height="50%"></p>
-<img src="/test_img/7.PNG" width="50%" height="50%"></p>
+<img src="/test_img/6.PNG" width="50%" height="50%">
+<img src="/test_img/7.PNG" width="50%" height="50%">
 
 #### 시연
-<img src="/test_img/8.PNG" width="50%" height="50%"></p>
+<img src="/test_img/8.PNG" width="50%" height="50%">
 
-- 콘솔창에서 데이터를 판별하는 작업
-<img src="/test_img/9.PNG" width="50%" height="50%"></p>
+- 콘솔창에서 데이터를 판별하는 작업  
+<img src="/test_img/9.PNG" width="50%" height="50%">
 
-- 일반 동영상
+- 일반 동영상  
 
-<img src="/test_img/10.PNG" width="50%" height="50%"></p>
-<img src="/test_img/11.PNG" width="50%" height="50%"></p>
-- 선정성이 있는 
-
+<img src="/test_img/10.PNG" width="50%" height="50%">
+<img src="/test_img/11.PNG" width="50%" height="50%">
+- 선정성이 있는 동영상
