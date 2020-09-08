@@ -15,6 +15,6 @@
 
 
 ## Application Sample
-<p align="center"><img src="/test_img/1.png" width="20%" height="20%"></p>
+<p align="center"><img src="/test_img/1.PNG" width="20%" height="20%"></p>
 
 
