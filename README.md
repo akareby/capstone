@@ -45,9 +45,14 @@
 #### Web
 <img src="/test_img/6.PNG" width="50%" height="50%"></p>
 <img src="/test_img/7.PNG" width="50%" height="50%"></p>
+
+#### 시연 사진
 <img src="/test_img/8.PNG" width="50%" height="50%"></p>
+
+- 콘솔창에서 데이터를 판별하는 작업
 <img src="/test_img/9.PNG" width="50%" height="50%"></p>
+- 일반 동영상
 <img src="/test_img/10.PNG" width="50%" height="50%"></p>
 <img src="/test_img/11.PNG" width="50%" height="50%"></p>
-
+- 선정성이 있는 
 
