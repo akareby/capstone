@@ -19,16 +19,16 @@
   
 #### **Background**  
 <br/>
-<img src="/test_img/1.PNG" width="50%" height="50%">   
+<img src="/test_img/1.PNG" width="50%" height="50%">  
 - 유튜브에 특별한 인증이 필요 없이 유해한 동영상  
 
 
 <br/>
 
 #### Data Set
-- '공포', '음란', '잔인'이라는 주제로한 데이터  
 <br/>
-<img src="/test_img/2.PNG" width="50%" height="50%">
+<img src="/test_img/2.PNG" width="50%" height="50%">  
+- '공포', '음란', '잔인'이라는 주제로한 데이터  
 <p align="center"><img src="/test_img/3.PNG" width="50%" height="50%"></p>
 <p align="center"><img src="/test_img/4.PNG" width="50%" height="50%"></p>
 <p align="center"><img src="/test_img/5.PNG" width="50%" height="50%"></p>
