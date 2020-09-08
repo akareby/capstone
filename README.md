@@ -46,7 +46,12 @@
 #### Web
 <br/>
 <img src="/test_img/6.PNG" width="50%" height="50%">
+
+- Stack
+<br/>
 <img src="/test_img/7.PNG" width="50%" height="50%">
+
+- 웹 구조
 
 #### 시연
 <br/>
