@@ -37,7 +37,7 @@
 <br/>
 <img src="/test_img/4.PNG" width="50%" height="50%">
 
-- 프로그램 구조  
+- Structure 
 
 <img src="/test_img/5.PNG" width="50%" height="50%">
 
@@ -53,7 +53,7 @@
 <br/>
 <img src="/test_img/7.PNG" width="50%" height="50%">
 
-- 웹 
+- Web Structure
 <br/>
 
 #### 시연
