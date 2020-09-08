@@ -14,7 +14,7 @@
 |  김영완  |     산출물 관리자          | 프로젝트에서 나오는 모든 산출물을 관리        |
 
 
-## Application Sample
+#### **Background**
 <p align="center"><img src="/test_img/1.PNG" width="50%" height="50%"></p>
 <p align="center"><img src="/test_img/2.PNG" width="50%" height="50%"></p>
 <p align="center"><img src="/test_img/3.PNG" width="50%" height="50%"></p>
