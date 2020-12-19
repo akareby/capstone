@@ -1,8 +1,4 @@
-# Introduction
-
-### 2019년 상명대학교 캡스톤 디자인
-
-### CNN을 이용한 유튜브 영상 유해등급 판독  
+# CNN을 이용한 유튜브 영상 유해등급 판독  
 
 <br/>
 
@@ -17,14 +13,14 @@
 
 <br/>
   
-#### **Background**  
+## **Background**  
 <br/>
 <img src="/test_img/1.PNG" width="50%" height="50%">  
 
 - 유튜브에 특별한 인증이 필요 없이도 볼 수 있는 유해한 동영상들이 많이 있다
 
 
-#### Data Set
+## Data Set
 <br/>
 <img src="/test_img/2.PNG" width="50%" height="50%"> 
 
@@ -33,11 +29,11 @@
 
 <br/>  
 
-#### CNN
+## CNN
 <br/>
 <img src="/test_img/4.PNG" width="50%" height="50%">
 
-- Structure 
+## Structure 
 
 <img src="/test_img/5.PNG" width="50%" height="50%">
 
@@ -45,7 +41,7 @@
 
 <br/>
 
-#### Web
+## Web
 <br/>
 <img src="/test_img/6.PNG" width="50%" height="50%">
 
@@ -56,7 +52,7 @@
 - Web Structure
 <br/>
 
-#### 시연
+## 시연
 <br/>
 
 <img src="/test_img/12.PNG" width="50%" height="50%">
