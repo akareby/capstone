@@ -43,7 +43,13 @@
 
 <img src="/test_img/5.PNG" width="50%" height="50%">  
 
-- 3 Layers, Batch Size = 300, Epoch = 300  
+## Model  
+- 3 Layers
+- Batch Size = 300
+- Epoch = 300  
+- Optimizer : Adam  
+- Loss Fucntion : Softmax CrossEntropy  
+
 
 <br/>
 
